@@ -12,7 +12,7 @@ app.get('/api/data', (req, res) => {
     timestamp: new Date(),
   };
   res.json(data);
-}); 
+});
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
